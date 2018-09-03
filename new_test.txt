@@ -1,0 +1,76 @@
+МКБМ. TWFA.Разработка функции блокировки доступа через TWFA
+МКБМ. Счет Эскроу.
+МКБМ. Заказ дебетовой карты. При оплате комиссии за выпуск баллами не проходит оплата, при успешно созданной операции
+МКБМ. Заказ дебетовой карты. Не проставляется статус карты
+
+МКБМ. Подготовить файл, содержащий статистику просмотра раздела Акции по клиенту
+МКБМ. Чужая карта.Привязка&Удаление
+МКБМ. Программа лояльности с SweetCard
+
+
+
+Задача 'МКБМ. Изменить список отделения для открытия вклада’ - как сделали?
+Задача 'МКБМ. Счет Эскроу.' - оценили?
+Задача 'МКБМ. Подготовить файл, содержащий статистику просмотра раздела Акции по клиенту' - что с ней?
+
+WebViewController
+privacy-policy.html
+
+How to Programmatically check and open an existing app in - Swift 4
+
+
+
+        dictionary["сard_source_curr_name"] as? String
+        dictionary["recipientName"] as? String
+        dictionary["final_sum"] as? String
+        rateValue(dictionary["rur_rate_comission"])
+        rateValue(dictionary["rur_rate_source"])
+
+
+        [dictionary stringValueForKey:@"сard_source_curr_name"];
+        [dictionary stringValueForKey:@"recipientName"];
+        [dictionary stringValueForKey:@"final_sum"];
+        [self rateValue:dictionary[@"rur_rate_comission"]];
+        [self rateValue:dictionary[@"rur_rate_source"]];
+
+
+    public String сardSourceCurrName;        //Валюта карты списания
+    public String recipientName;
+    public String finalSum;                    //Итоговая сумма списания
+    public String rurRateComission;            //Курс конвертации для комиссии в рублях
+    public String rurRateSource;            //Курс конвертации для суммы в рублях
+
+    public int restTransactionCount;
+    public String restLimitAmount;
+    public String comissionSum;                //Сумма коммиссии
+    public String comissionCurrName;        //Валюта коммиссии
+
+
+2018-08-31 10:07:14.004361+0300 Cupertino[16232:15883333] Json request: request str - {"params":[{"id":"1347","value":"40702810502300005017"},{"id":"1348","value":"ООО МАТОРИН-РУК"},{"id":"1349","value":"5038100733"},{"id":"1351","value":"044525593"},{"id":"1421","value":"30101810200000000593"},{"id":"1353","value":"Оплата ЖКУ лс 552014 за август 2018 за нежилое помещение г.Москва, Береговой пр-д 5к2 пом.14 за Юнаева Н.П."},{"id":"7031","value":""},{"id":"3308","value":"НДС не облагается"},{"id":"3309","value":"0"}],"uid":"5521E113-2BC6-48CF-97E8-A0EC09265615","rid":"AlKu7DAz","sid":"5ZvjFr7QANDFkvncw03UUBwJ","type":"SaveTransferBank","debit_account_id":"913489964","sum":"100"}
+
+
+Communication error. Please use diagnostic mode to check connectivity. You need to have outbound access to TCP port 443.
+An unknown error occurred.
+
+An exception has occurred: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+An unknown error occurred.
+
+Could not connect to Apple's web service.
+An unknown error occurred.
+
+
+2.12.1 (2.12.1.9892)
+Препрод версия:
+- доработки по "Специальным предложениям";
+- показ коротких и полных правил  "Специальных предложений";
+- показ маркеров на карте для "Специальных предложений";
+- открытие информации о партнёрах (веб-страницы) в окне приложения;
+- открытие сторонних приложений с картами для построения маршрутов;
+- определение оператора при отсутствии в справочнике.
+
+MOBY-3610
+Bug: iOS: Не прокладывается маршрут с карты
+
+
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:@"Проложить маршрут с помощью" preferredStyle:IS_IPAD ? UIAlertControllerStyleAlert : UIAlertControllerStyleActionSheet];
+
